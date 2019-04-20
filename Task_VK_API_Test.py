@@ -1,6 +1,6 @@
 import vk
 import glob
-session=vk.Session(access_token="4c7ba838333bf0782974b856490ce5e929b66f06f94dd73a5d8a5e2a1263c0a0924194bf08a97240aaf50")
+session=vk.Session(access_token="your_token")
 api=vk.API(session, v=5.95)
 allfiles=glob.glob('*.txt')
 for k in range (len(allfiles)):
